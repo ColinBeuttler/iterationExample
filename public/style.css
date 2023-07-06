@@ -1,0 +1,79 @@
+.pointer {
+    width: 15%;
+    height: auto;
+    letter-spacing: 2.5rem;
+    margin-top: 10%;
+    margin-left: 10%;
+    float: left;
+  }
+  
+  .sub {
+    display: flex;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    
+  }
+
+.active{
+    color: red;
+    /* background-color: black; */
+}
+
+.active::after{
+    content: "<";
+    z-index: -5;
+    color: red;
+    height: 6px;
+    width: 6px;
+}
+
+#button {
+    /* margin-top: 10%; */
+    margin-left: 40%;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+  
+  }
+
+.non-active{
+    opacity: 50%;
+}
+
+.active-y{
+    color: blue;
+}
+
+.active-y::after{
+    content: "<";
+    z-index: -5;
+    color: blue;
+    height: 6px;
+    width: 6px;
+}
+
+.text{
+    padding-top: 12%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    line-height: 80px;
+    margin-top: 10%;
+    float: left;
+    height: 650px;
+    width: 850px;
+    color: black;
+}
+
+.container{
+    overflow: hidden;
+}
+
+.button{
+    margin-top: 200px;
+    margin-left: 100px;
+    height: 30px;
+    width: 100px;
+    float: left;
+}
