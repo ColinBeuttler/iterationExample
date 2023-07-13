@@ -14,7 +14,7 @@ var textExplain = [
     "To determine if the string to the left is an anagram, each character must be compared to it's inverse index character.",
     "Iteration is ideal for this process because the code must run for each index within the string as well as it's opposing index.", 
     "i starts at index 0, the first character of the string. j starts at index string.length-i-1, the last index of the string. i = j; true",
-    "For every iteration i will increase by i and j will decrease by i. i = j; true",
+    "For every iteration i will increase by i and j will decrease by 1. i = j; true",
     "A conditional statement, if i equals j, will check for truthiness. If false, the iteration will stop, if true continue. i = j; true",
     "On false return, the iterations stops, this indicates the string to the left is not an anagram.",
     "However, if the iteration runs to completion, then all characters within the string are equal to their opposing character.",
